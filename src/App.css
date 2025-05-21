@@ -1,0 +1,150 @@
+body.light-mode {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #ffffff;
+}
+
+body.dark-mode {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #2F4F4F;
+}
+
+.chat-container.light {
+  background-color: #ffffff;
+  color: #000;
+}
+
+.chat-container.dark {
+  background-color: #2F4F4F;
+  color: #000;
+}
+
+.header {
+  background: #008B8B;
+  color: #2F4F4F;
+  padding: 10px;
+  text-align: center;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.mode-toggle {
+  background: #696969;
+  color: #000;
+  border: none;
+  padding: 5px 10px;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.mode-toggle:hover {
+  background: #2F4F4F;
+}
+
+.messages {
+  padding: 20px;
+  height: auto;
+  overflow-y: auto;
+  border-bottom: 1px solid #ddd;
+}
+
+.message {
+  margin: 10px 0;
+  padding: 10px;
+  border-radius: 5px;
+}
+
+.message.user.light {
+  background: #e0e0e0;
+  text-align: right;
+}
+
+.message.user.dark {
+  background: #696969;
+  text-align: right;
+}
+
+.message.bot.light {
+  background: #008B8B;
+  color: #fff;
+  text-align: left;
+}
+
+.message.bot.dark {
+  background: #008B8B;
+  color: #000;
+  text-align: left;
+}
+.input-container.light{
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  display: flex;
+  padding: 10px;
+  background-color: #ffffff;
+  border-top: 1px solid #ddd;
+}
+
+.input-container.dark{
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  display: flex;
+  padding: 10px;
+  background-color: #2F4F4F;
+  border-top: 1px solid #ddd;
+}
+
+input.light {
+  flex: 1;
+  padding: 10px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  color: black;
+  background: #fff;
+}
+
+input.dark{
+  flex: 1;
+  padding: 10px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  color: black;
+  background: #696969;
+}
+
+input.light::placeholder {
+  color: #888;
+}
+
+input.dark::placeholder {
+  color: #000;
+}
+
+button.light {
+  margin-left: 10px;
+  padding: 10px 20px;
+  background: #008B8B;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+button.dark {
+  margin-left: 10px;
+  padding: 10px 20px;
+  background: #008B8B;
+  color: #000000;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+button:hover {
+  background: #008B8B;
+}
