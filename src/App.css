@@ -101,6 +101,7 @@ body.dark-mode {
   padding: 20px;
   height: auto;
   overflow-y: auto;
+  border-radius: 10px;
   border-bottom: 1px solid #ddd;
 }
 
